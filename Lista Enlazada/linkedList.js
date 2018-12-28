@@ -98,16 +98,31 @@ class LinkedList {
                 }
                 previous.next = current.next;
             }
+            this.size --;
+            return current.data;
         }
+    }
+
+    isEmpty(){
+        if(this.size === 0){
+            return true
+        } else {
+            return false
+        }
+    }
+
+    getSize() {
+        return this.size;
     }
 };
 
 const linkedList = new LinkedList();
 console.log(linkedList)
-linkedList.add('hola');
-linkedList.add('como estas?');
-linkedList.insertAt('me llamo Jorge', 1);
+
 console.log(linkedList.print())
-linkedList.removeData('como estas?')
+linkedList.removeElement('como estas?')
 console.log(linkedList)
 console.log(linkedList.print())
+linkedList.removeFrom(1)
+console.log(linkedList.print())
+console.log(linkedList.isEmpty())

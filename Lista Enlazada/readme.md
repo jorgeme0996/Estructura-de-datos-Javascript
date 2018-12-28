@@ -6,8 +6,8 @@
 2. [X] LinkedList constructor
 3. [X] add
 4. [X] insertAt
-5. [ ] removeFrom
+5. [X] removeFrom
 6. [X] removeElement
-7. [ ] isEmpty
+7. [X] isEmpty
 8. [ ] getSize
 9. [X] print
