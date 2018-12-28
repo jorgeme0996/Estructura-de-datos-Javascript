@@ -4,10 +4,10 @@
 
 * El modo de acceso a sus elementos es de tipo FIFO (First in First Out) 
 
--[X] constructor     (Cuales son los atributos de la fila)
--[X] enterQueue      (Función cuando entras a la Fila) 
--[X] deQueue         (Función cuando salimos de la Fila)
--[X] getSize         (Función para saber el tamaño de la fila)
--[X] isEmpty         (Función verifica si esta vacia o no)
--[X] peek            (Función que permite ver el valor que esta a punto de hacer deQueue())
--[X] print           (Función que imprime los valores de la fila)
+1. [X] constructor     (Cuales son los atributos de la fila)
+2. [X] enterQueue      (Función cuando entras a la Fila) 
+3. [X] deQueue         (Función cuando salimos de la Fila)
+4. [X] getSize         (Función para saber el tamaño de la fila)
+5. [X] isEmpty         (Función verifica si esta vacia o no)
+6. [X] peek            (Función que permite ver el valor que esta a punto de hacer deQueue())
+7. [X] print           (Función que imprime los valores de la fila)
