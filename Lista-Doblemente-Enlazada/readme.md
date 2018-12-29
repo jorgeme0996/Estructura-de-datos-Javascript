@@ -7,10 +7,10 @@
 3. [X] addToHead
 4. [X] addToTail
 5. [X] insertAt
-6. [] removeFromHead
-7. [] removeFromTail
-8. [] removeElement
+6. [X] removeFromHead
+7. [X] removeFromTail
+8. [X] removeElement
 9. [X] print
 10. [X] printReverse
-11. [] getSize
-12. [] isEmpty
+11. [X] getSize
+12. [X] isEmpty
